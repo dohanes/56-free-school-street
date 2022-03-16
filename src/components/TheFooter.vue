@@ -1,14 +1,10 @@
 <template>
-    <el-footer>&copy; {{ year }} Zorro Ohanessian. Website by Daniel Ohanessian</el-footer>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">&copy; {{ year }} Zorro Ohanessian. Website by Daniel Ohanessian</footer>
 </template>
 
 <script>
-import { ElFooter } from 'element-plus';
 
 export default {
-    components: {
-        ElFooter
-    },
     setup() {
         const CURRENT_YEAR = new Date().getFullYear();
 
