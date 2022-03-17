@@ -10,17 +10,22 @@ In an exclusive boarding school in the shadowy sections of the old Calcutta (pre
             <iframe type="text/html" sandbox="allow-scripts allow-same-origin allow-popups" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B07MGWGC56&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_9FGXABN7QXDKNJHBZQFJ" ></iframe>
         </div>
     </div>
+    <h3>Photo Gallery</h3>
+    <photo-gallery />
     <h3>Testmonials from Readers</h3>
     <testimonial-card v-for="testimonial in testimonials" :key="testimonial.name" :testimonial="testimonial" />
 </template>
 
 <script>
 import TestimonialCard from '../components/TestimonialCard.vue';
-import testimonials from '../testimonials.js'
+import PhotoGallery from '../components/PhotoGallery.vue';
+
+import testimonials from '../assets/data/testimonials.js'
 
 export default {
     components: {
-        TestimonialCard
+        TestimonialCard,
+        PhotoGallery
     },
     setup() {
 
