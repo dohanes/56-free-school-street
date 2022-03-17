@@ -11,6 +11,9 @@
                     <router-link class="nav-link" activeClass="active" aria-current="page" to="/">Home</router-link>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="https://www.amazon.com/dp/B07MGWGC56" target="_blank">Buy Now!</a>
+                </li>
+                <li class="nav-item">
                     <router-link class="nav-link" activeClass="active" to="/thoughts">Schoolgoer's Thoughts</router-link>
                 </li>
                 <li class="nav-item">
