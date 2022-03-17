@@ -31,3 +31,9 @@ export default {
 
 }
 </script>
+
+<style scoped>
+    .navbar {
+        opacity: 0.8;
+    }
+</style>
