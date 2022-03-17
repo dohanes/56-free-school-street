@@ -1,5 +1,5 @@
 <template>
-    <div id="photoCarousel" class="carousel slide" data-bs-ride="carousel" style="width:300px">
+    <div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button v-for="(_, index) in photos" :key="index" type="button" data-bs-target="#photoCarousel" :data-bs-slide-to="index" :class="{active: index === 0}" aria-current="true" :aria-label="`Slide ${index}`"></button>
             <button type="button" data-bs-target="#photoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>

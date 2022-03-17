@@ -1,5 +1,5 @@
 <template>
-    <div class="row mt-4 mb-6">
+    <div class="row mt-4">
         <div class="col-8">
             <h1 class="mb-0">56 Free School Street</h1>
             <h3 class="mt-0">a book by Zorro Ohanessian</h3>
@@ -10,10 +10,19 @@ In an exclusive boarding school in the shadowy sections of the old Calcutta (pre
             <iframe type="text/html" sandbox="allow-scripts allow-same-origin allow-popups" width="336" height="550" frameborder="0" allowfullscreen style="max-width:100%" src="https://read.amazon.com/kp/card?asin=B07MGWGC56&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_9FGXABN7QXDKNJHBZQFJ" ></iframe>
         </div>
     </div>
-    <h3>Photo Gallery</h3>
-    <photo-gallery />
-    <h3>Testmonials from Readers</h3>
-    <testimonial-card v-for="testimonial in testimonials" :key="testimonial.name" :testimonial="testimonial" />
+    <br />
+    <div class="row">
+        <div class="col-6">
+            <h3>Photo Gallery</h3>
+            <photo-gallery />
+        </div>
+        <div class="col-6">
+            <h3>Testmonials from Readers</h3>
+            <div :style="{height: '800px', overflowY: 'scroll'}">
+                <testimonial-card v-for="testimonial in testimonials" :key="testimonial.name" :testimonial="testimonial" />
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>
