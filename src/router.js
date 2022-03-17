@@ -7,7 +7,8 @@ import SponsorPage from './pages/SponsorPage.vue';
 const routes = [
     { path: '/', component: HomePage },
     { path: '/thoughts', component: ThoughtsPage, props: true },
-    { path: '/sponsors', component: SponsorPage }
+    { path: '/sponsors', component: SponsorPage },
+    { path: '/:pathMatch(.*)*', redirect: '/' }
 ]
 
 
