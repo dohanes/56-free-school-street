@@ -1,4 +1,4 @@
-# 56freeschoolstreet
+# 56-free-school-street
 
 ## Project setup
 ```
