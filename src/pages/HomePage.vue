@@ -1,5 +1,5 @@
 <template>
-    <div class="row mt-4">
+    <div class="row">
         <div class="col-8">
             <h1 class="mb-0">56 Free School Street</h1>
             <h3 class="mt-0">a book by Zorro Ohanessian</h3>

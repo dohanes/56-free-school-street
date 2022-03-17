@@ -1,12 +1,17 @@
 <template>
-    <div class="card card-body mb-2">
+    <base-card>
         <h4>{{testimonial.name}} ({{ testimonial.location }})</h4>
         <p>{{ testimonial.message }} </p>
-    </div>
+    </base-card>
 </template>
 
 <script>
+import BaseCard from './BaseCard.vue';
+
 export default {
+    components: {
+        BaseCard
+    },
     props: ['testimonial']
 }
 </script>

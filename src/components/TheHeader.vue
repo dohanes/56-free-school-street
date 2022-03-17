@@ -8,19 +8,18 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <router-link class="nav-link active" aria-current="page" to="/">Home</router-link>
+                    <router-link class="nav-link" activeClass="active" aria-current="page" to="/">Home</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link class="nav-link" to="/thoughts">Schoolgoer's Thoughts</router-link>
+                    <router-link class="nav-link" activeClass="active" to="/thoughts">Schoolgoer's Thoughts</router-link>
+                </li>
+                <li class="nav-item">
+                    <router-link class="nav-link" activeClass="active" to="/sponsors">Sponsors</router-link>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="https://zorrosthoughts.blogspot.com/" target="_blank">Zorro's Blog</a>
                 </li>
             </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
             </div>
         </div>
     </nav>

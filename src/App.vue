@@ -1,6 +1,6 @@
 <template>
   <the-header />
-  <div class="container">
+  <div class="container mt-4">
     <router-view />
     <the-footer />
   </div>
